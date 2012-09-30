@@ -1,0 +1,10 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4246
+
+longline#Show() highlights lines that are too long.
+longline#Hide() unhighlights them.
+longline#Toggle() does what you might expect.
+longline#Exists() tells you whether there is a line in the file that is too long and is useful for statusline warnings.
+
+the :LongLines command calls longline#Toggle()
+
+You may configure how long is too long either globally or by file type.
